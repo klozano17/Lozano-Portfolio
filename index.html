@@ -4,21 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <title>My Portfolio</title>
 </head>
 
 
 <body>
     <header>
-        <nav class="text-right">
-          <ul>
-            <li> <a href="https://github.com/">Github</a></li>
-            <li> <a href="#">Portfolio</a></li>
-            <li> <a href="#contact">Contact</a></li>
-          </ul>
+        <nav class="topnav">
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li>
+                <li> <a href="#">About Me</a></li>
+                <li> <a href="#contact">Contact Me</a></li>
+                <li>Kevin Lozano</li>
+            </ul>
         </nav>
-      </header>
-     
+    </header>
+
+    <main>
+        <h1 class="text-center">About Me</h1>
+        <figure>
+            <img src="./assets/images/headshot.jpg" alt="Headshot of Kevin Lozano">
+            <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+        </figure>
+
+        <section id="Work">
+            <h2 class="text-left">Work</h2>
+            
+        </section>
+
+        <section id="contact">
+            <h2 class="text-left">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                    <label class="text-right" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                    <label class="text-right" for="email">Email:</label>
+                    <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+        
+  </main>
+ 
 </body>
 </html>

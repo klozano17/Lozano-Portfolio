@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+nav li {
+    color: black;
+    margin-right: 100px;
+    padding: 0px -40px;
+    display: inline-block;
+    text-decoration: none;
+    float: right; 
+}
+
+li {
+    float: right;
+}
+.topnav a:hover {
+    color: rgb(80, 121, 255); 
+}
+
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+  }
+  
+main {
+    padding: 60px 0;
+  }
+
+.text-left {
+    
+
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+  }
+  
+.text-center {
+    text-align: center;
+
+}
+  
+  
