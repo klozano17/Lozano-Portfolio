@@ -140,12 +140,14 @@ nav {
   .project-pic {
     width: 65%;
     height: 60%;
+    padding: 10px;
   }
   
   .projects-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
   }
   .projects-title {
@@ -157,6 +159,7 @@ nav {
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
+    
   }
 
   .project-container p {
