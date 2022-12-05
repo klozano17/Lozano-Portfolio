@@ -11,6 +11,7 @@
 
 
 <body>
+<!-- Navigation bar -->
     <nav>
         <h1>Kevin Lozano</h1>
             <ul class="navigation">
@@ -18,10 +19,10 @@
                     <a href="https://github.com/" class="nav-link">Github</a>
                 </li>
                 <li>
-                    <a href="#aboutme" class="nav-link">About Me</a>
+                    <a href="#about-me" id="about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work" class="nav-link">Work</a>
+                    <a href="#work" id="projects">Projects</a>
                 </li>    
                 <li>
                     <a href="#contact" class="nav-link">Contact Me</a>
@@ -36,26 +37,27 @@
     </section>
 
     <main> 
-        
-    <section class="bio">
+    <!-- About me -->
+    <section class="about me">
         <h2 class="bio-title">About Me</h2>
             <p class="bio-text"> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, distinctio blanditiis dolorum obcaecati numquam necessitatibus nesciunt perspiciatis enim, in repellendus doloribus dolor rem dicta exercitationem velit, quibusdam sunt laudantium illum?
             </p>
     </section>
-
+    <!-- main cards -->
     <section class="projects" id="projects">
         <h3 class="projects-title">Work</h3>
         <div class="projects-container">
-          <div class="project-container project-card">
+          <div class="project-container project-card first-card">
+            <a href="https://klozano17.github.io/Code-Refactor-HW-/" target="_blank" class="project-link">
             <img src="assets/images/refactor-code.png" alt="people-together" loading="lazy" class="project-pic"/>
+            </a>
             <h3 class="project-title">Code Refactor</h3>
             <p class="project-details">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
             ratione vel inventore labore commodi modi quos culpa aut saepe!
             Alias!
-            </p>
-            <a href="https://klozano17.github.io/Code-Refactor-HW-/" target="_blank" class="project-link">Check it Out</a>
+            </p> 
         </div>
         <div class="project-container project-card">
             <img src="assets/images/coming-soon.jpg" alt="coming-soon-sign" loading="lazy" class="project-pic"/>
@@ -65,7 +67,7 @@
                 ratione vel inventore labore commodi modi quos culpa aut saepe!
                 Alias!
             </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
+            <a href="#" target="_blank" class="project-link"></a>
         </div>
         <div class="project-container project-card">
             <img src="assets/images/coming-soon.jpg" alt="coming-soon-sign" loading="lazy" class="project-pic"/>
@@ -75,21 +77,18 @@
                 ratione vel inventore labore commodi modi quos culpa aut saepe!
                 Alias!
             </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
+            <a href="#" target="_blank" class="project-link"></a>
         </div>
     </section>
-
-
-    <section id="contact">
-            <h2 class="text-left">Contact Me</h2>
+    <!-- Contact Information -->
+    <section class="contact" id="contact">
+            <h2>Contact Me</h2>
                 <ul>
                     <li>
-                    <label class="text-right" for="name">Name:</label>
-                    <input type="text" id="name" name="user-name">
+                        email: klozano17@gmail.com
                     </li>
                     <li>
-                    <label class="text-right" for="email">Email:</label>
-                    <input type="text" id="email" name="user-email">
+                        919-741-2741
                     </li>
                 </ul>
     </section>

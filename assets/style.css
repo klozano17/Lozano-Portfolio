@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #afa5a5;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
@@ -74,6 +74,8 @@ nav {
   nav ul {
     display: flex;
     gap: 1.9rem;
+    
+    
   }
   
   nav ul li {
@@ -96,6 +98,7 @@ nav {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    
   }
 
   .hero img {
@@ -103,7 +106,7 @@ nav {
     width: 37.5rem;
   }
   
-  .bio {
+  .about.me {
     width: 25rem;
     padding: 0.625rem;
     background-color: var(--bg-color);
@@ -113,17 +116,18 @@ nav {
     line-height: var(--line-height);
     margin-top: 2rem;
     padding: 1rem 3.5rem;
+    
   }
   
-  .bio h2 {
+  .about.me h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
   }
   
-  .bio p {
+  .about.me p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
-    text-align: justify center
+    
     
   }
   .projects {
@@ -179,6 +183,27 @@ nav {
   .project-container {
     width: 20.875rem;
   }
+
+  .first-card {
+    height: 600px;
+    width: 600px;
+  }
+
+  .contact {
+    margin-top: 2rem;
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+  }
+  
+  
 
 
   @media screen and (max-width: 720px) {
