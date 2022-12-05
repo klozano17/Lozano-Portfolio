@@ -108,7 +108,7 @@ nav {
   }
   
   .about.me {
-    width: fit-content;
+    
     padding: 0.625rem;
     background-color: var(--bg-color);
     padding: 1rem 6rem;
