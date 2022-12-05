@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #afa5a5;
+  --bg-color: #abc8f3;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
@@ -44,6 +44,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: dodgerblue;
 }
 nav {
     position: sticky;
@@ -107,7 +108,7 @@ nav {
   }
   
   .about.me {
-    width: 25rem;
+    width: fit-content;
     padding: 0.625rem;
     background-color: var(--bg-color);
     padding: 1rem 6rem;
@@ -145,6 +146,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
   .projects-title {
     text-align: center;
@@ -195,7 +197,8 @@ nav {
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    text-align: center;
+    
   }
   
   .contact h2 {
