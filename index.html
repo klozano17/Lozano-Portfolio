@@ -6,36 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <title>My Portfolio</title>
+    
 </head>
 
 
 <body>
-    <header>
-        <nav class="topnav">
-            <ul>
-                <li> <a href="https://github.com/">Github</a></li>
-                <li> <a href="#">About Me</a></li>
-                <li> <a href="#contact">Contact Me</a></li>
-                <li>Kevin Lozano</li>
+    <nav>
+        <h1>Kevin Lozano</h1>
+            <ul class="navigation">
+                <li> 
+                    <a href="https://github.com/" class="nav-link">Github</a>
+                </li>
+                <li>
+                    <a href="#aboutme" class="nav-link">About Me</a>
+                </li>
+                <li>
+                    <a href="#work" class="nav-link">Work</a>
+                </li>    
+                <li>
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>      
+    </nav>
+    <section class="hero" id="about">
+        <img src="./assets/images/headshot.jpg" class="hero-img" alt="Headshot of Kevin Lozano"></imgsrc>
+    </section>
 
-    <main>
-        <h1 class="text-center">About Me</h1>
-        <figure>
-            <img src="./assets/images/headshot.jpg" alt="Headshot of Kevin Lozano">
-            <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
-        </figure>
+    <main> 
+        
+    <section class="bio">
+        <h2 class="bio-title">About Me</h2>
+            <p class="bio-text"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, distinctio blanditiis dolorum obcaecati numquam necessitatibus nesciunt perspiciatis enim, in repellendus doloribus dolor rem dicta exercitationem velit, quibusdam sunt laudantium illum?
+            </p>
+    </section>
 
-        <section id="Work">
-            <h2 class="text-left">Work</h2>
-            
-        </section>
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Work</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img src=""
 
         <section id="contact">
             <h2 class="text-left">Contact Me</h2>
-            <form>
                 <ul>
                     <li>
                     <label class="text-right" for="name">Name:</label>
@@ -46,10 +62,6 @@
                     <input type="text" id="email" name="user-email">
                     </li>
                 </ul>
-                <div class="text-center">
-                    <button type="submit">SEND</button>
-                </div>
-            </form>
         </section>
         
   </main>
